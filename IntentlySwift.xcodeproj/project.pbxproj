@@ -15,6 +15,9 @@
 		B1D1A59B1C34F98A0098C4A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1D1A5991C34F98A0098C4A8 /* LaunchScreen.storyboard */; };
 		B1D1A5A61C34F98A0098C4A8 /* IntentlySwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D1A5A51C34F98A0098C4A8 /* IntentlySwiftTests.swift */; };
 		B1D1A5B11C34F98A0098C4A8 /* IntentlySwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D1A5B01C34F98A0098C4A8 /* IntentlySwiftUITests.swift */; };
+		B1FF87E51C35E145009C30CF /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FF87E41C35E145009C30CF /* TaskManager.swift */; };
+		B1FF87EB1C35EC6D009C30CF /* Checklist Filled-50.png in Resources */ = {isa = PBXBuildFile; fileRef = B1FF87EA1C35EC6D009C30CF /* Checklist Filled-50.png */; };
+		B1FF87ED1C35EC73009C30CF /* Create New Filled-50.png in Resources */ = {isa = PBXBuildFile; fileRef = B1FF87EC1C35EC73009C30CF /* Create New Filled-50.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		B1D1A5AC1C34F98A0098C4A8 /* IntentlySwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntentlySwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1D1A5B01C34F98A0098C4A8 /* IntentlySwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentlySwiftUITests.swift; sourceTree = "<group>"; };
 		B1D1A5B21C34F98A0098C4A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1FF87E41C35E145009C30CF /* TaskManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TaskManager.swift; path = ../TaskManager.swift; sourceTree = "<group>"; };
+		B1FF87EA1C35EC6D009C30CF /* Checklist Filled-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Checklist Filled-50.png"; sourceTree = "<group>"; };
+		B1FF87EC1C35EC73009C30CF /* Create New Filled-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Create New Filled-50.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +105,12 @@
 		B1D1A58D1C34F98A0098C4A8 /* IntentlySwift */ = {
 			isa = PBXGroup;
 			children = (
+				B1FF87E91C35EBCD009C30CF /* Assets */,
+				B1FF87E61C35E269009C30CF /* Model */,
+				B1FF87E71C35E26F009C30CF /* View */,
+				B1FF87E81C35E274009C30CF /* Controller */,
 				B1D1A58E1C34F98A0098C4A8 /* AppDelegate.swift */,
-				B1D1A5901C34F98A0098C4A8 /* FirstViewController.swift */,
-				B1D1A5921C34F98A0098C4A8 /* SecondViewController.swift */,
-				B1D1A5941C34F98A0098C4A8 /* Main.storyboard */,
 				B1D1A5971C34F98A0098C4A8 /* Assets.xcassets */,
-				B1D1A5991C34F98A0098C4A8 /* LaunchScreen.storyboard */,
 				B1D1A59C1C34F98A0098C4A8 /* Info.plist */,
 			);
 			path = IntentlySwift;
@@ -117,7 +123,7 @@
 				B1D1A5A71C34F98A0098C4A8 /* Info.plist */,
 			);
 			path = IntentlySwiftTests;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		B1D1A5AF1C34F98A0098C4A8 /* IntentlySwiftUITests */ = {
 			isa = PBXGroup;
@@ -126,6 +132,41 @@
 				B1D1A5B21C34F98A0098C4A8 /* Info.plist */,
 			);
 			path = IntentlySwiftUITests;
+			sourceTree = "<group>";
+		};
+		B1FF87E61C35E269009C30CF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B1FF87E41C35E145009C30CF /* TaskManager.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B1FF87E71C35E26F009C30CF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B1D1A5941C34F98A0098C4A8 /* Main.storyboard */,
+				B1D1A5991C34F98A0098C4A8 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		B1FF87E81C35E274009C30CF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B1D1A5901C34F98A0098C4A8 /* FirstViewController.swift */,
+				B1D1A5921C34F98A0098C4A8 /* SecondViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		B1FF87E91C35EBCD009C30CF /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				B1FF87EA1C35EC6D009C30CF /* Checklist Filled-50.png */,
+				B1FF87EC1C35EC73009C30CF /* Create New Filled-50.png */,
+			);
+			name = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,7 +275,9 @@
 			files = (
 				B1D1A59B1C34F98A0098C4A8 /* LaunchScreen.storyboard in Resources */,
 				B1D1A5981C34F98A0098C4A8 /* Assets.xcassets in Resources */,
+				B1FF87EB1C35EC6D009C30CF /* Checklist Filled-50.png in Resources */,
 				B1D1A5961C34F98A0098C4A8 /* Main.storyboard in Resources */,
+				B1FF87ED1C35EC73009C30CF /* Create New Filled-50.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +304,7 @@
 			files = (
 				B1D1A5931C34F98A0098C4A8 /* SecondViewController.swift in Sources */,
 				B1D1A58F1C34F98A0098C4A8 /* AppDelegate.swift in Sources */,
+				B1FF87E51C35E145009C30CF /* TaskManager.swift in Sources */,
 				B1D1A5911C34F98A0098C4A8 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -486,6 +530,7 @@
 				B1D1A5B71C34F98A0098C4A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B1D1A5B81C34F98A0098C4A8 /* Build configuration list for PBXNativeTarget "IntentlySwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +539,7 @@
 				B1D1A5BA1C34F98A0098C4A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B1D1A5BB1C34F98A0098C4A8 /* Build configuration list for PBXNativeTarget "IntentlySwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +548,7 @@
 				B1D1A5BD1C34F98A0098C4A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
