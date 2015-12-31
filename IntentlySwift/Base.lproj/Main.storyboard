@@ -114,6 +114,9 @@
                     <tabBarItem key="tabBarItem" title="To Play" image="Checklist Filled-50.png" id="cPa-gy-q4n" userLabel="Second">
                         <inset key="imageInsets" minX="5" minY="5" maxX="5" maxY="5"/>
                     </tabBarItem>
+                    <connections>
+                        <outlet property="tblTasks" destination="x6h-vI-clh" id="ML9-Jk-C9t"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
